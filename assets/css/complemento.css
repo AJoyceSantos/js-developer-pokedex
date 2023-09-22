@@ -1,0 +1,116 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://wallpaperaccess.com/full/8611.jpg');
+    /* Define o fundo cinza */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  .content-right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .content-right-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 3rem;
+  }
+  
+  .content-right-information  {
+    margin: 2.75rem 0 0 2.5rem;
+    flex-direction: row;
+  }
+  
+  .content-right-footer {
+    display: flex;
+    margin: 4rem 0 0 0;
+    justify-content: center;
+  }
+  
+  .content-right-footer button {
+    border-style: none;
+    width: 80%; 
+    height: 40px;
+    border-radius: 50px;
+  }
+  .content-right-footer button a {  
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .info-title {
+    font-size: 18px;
+    margin-right: .25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .info-value {
+    font-size: 18px;
+    text-transform: capitalize;
+    
+  }
+  
+  #content-left {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+  
+  #content-left h1 {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+  }
+  
+  
+  .box {
+    display: flex;
+    list-style: none;
+    Background-color: #fff;
+    border-radius: 50px;
+    width: 50rem;
+    height: 30rem;
+  }
+  
+  .image {
+    max-width: 992px;
+    height: 10;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    margin-left: auto;
+  }
+  
+  @media screen and (min-width: 380px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+@media screen and (min-width: 576px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
